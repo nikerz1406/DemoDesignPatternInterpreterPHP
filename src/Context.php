@@ -1,5 +1,5 @@
 <?php 
-namespace Nikerz1406\Test\DesignPattern;
+namespace Nikerz1406\DesignPattern;
 class Context
     {
         private array $poolVariable;

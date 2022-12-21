@@ -7,6 +7,6 @@ git clone https://github.com/nikerz1406/DemoDesignPatternInterpreterPHP.git
 ```
 ## Run
 ```php
-php main.php
+composer dump-autoload && php main.php
 ```
 

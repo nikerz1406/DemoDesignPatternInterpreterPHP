@@ -1,12 +1,13 @@
 <?php
 
-include(__DIR__."/src/AbstractionExpression.php");
-include(__DIR__."/src/Context.php");
-include(__DIR__."/src/NonterminalExpression.php");
-include(__DIR__."/src/TerminalExpression.php");
-include(__DIR__."/src/Interpreter.php");
+// include(__DIR__."/src/AbstractionExpression.php");
+// include(__DIR__."/src/Context.php");
+// include(__DIR__."/src/NonterminalExpression.php");
+// include(__DIR__."/src/TerminalExpression.php");
+// include(__DIR__."/src/Interpreter.php");
+include(__DIR__."/vendor/autoload.php");
 
-use Nikerz1406\Test\DesignPattern\Interpreter;
+use Nikerz1406\DesignPattern\Interpreter;
 
 // Call pattern
 $speaker = new Interpreter();

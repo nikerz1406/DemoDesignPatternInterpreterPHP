@@ -1,0 +1,7 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Nikerz1406\\DesignPattern\\":"src/"
+        }
+    }
+}
